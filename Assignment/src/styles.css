@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: none !important;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+  }
+
+  a:not([href]):not([tabindex]) {
+    color: white !important;
+    text-decoration: none;
+  }
+  .fa-chevron-left{
+    /* float: right !important; */
+    margin-left: 97%;
+  }
+  mdb-card-img {
+    border-radius: 15px !important;
+  }
+  .my-1{
+    border-radius: 15px !important;
+  }
+
+  h5{
+    /* font-family: sans-serif; */
+    /* margin-left: 8%; */
+    color: #d5dfd5;
+    text-align: center;
+    font-size: 15px;
+    max-width: 19%;
+    position: relative;
+  }
+  h5:before{
+    content: "";
+    display: block;
+    width: 25%;
+    height: 2px;
+    background: white;
+    left: 0;
+    top: 40%;
+    position: absolute;
+  }
+  h5:after{
+    content: "";
+    display: block;
+    width: 25%;
+    height: 2px;
+    background: white;
+    right: 0;
+    top: 40%;
+    position: absolute;
+  }

@@ -1,0 +1,36 @@
+<section class="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+                <h5>More Like This</h5>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <mdb-carousel [isControls]="true" class="carousel-multi-item multi-animation"
+                    [type]="'carousel-multi-item'" [animation]="'slide'" [interval]="'0'">
+                    <mdb-carousel-item *ngFor="let item of slides; let i = index">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2" *ngFor="let card of item; let cardIndex = index">
+                            <mdb-card class="my-1">
+                                <mdb-card-img [src]="card.img" alt="Card image cap"></mdb-card-img>
+                                <mdb-card-body>
+                                    <mdb-card-title>
+                                        <p style="margin-top: 14px; margin-bottom:0%;">{{card.title}}</p>
+                                    </mdb-card-title>
+                                    <p
+                                        style="color:white; font-size: 10px; text-align:center; margin-top: 3px; opacity: 0.3;">
+                                        {{card.subTitle}}</p>
+                                </mdb-card-body>
+                            </mdb-card>
+                        </div>
+                    </mdb-carousel-item>
+                </mdb-carousel>
+
+            </div>
+        </div>
+
+    </div>
+</section>

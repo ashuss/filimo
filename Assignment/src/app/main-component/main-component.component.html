@@ -1,0 +1,78 @@
+<!-- <section class="welcome-area"> -->
+<app-header-component></app-header-component>
+<section id="hero" class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 hero-text-image">
+                <div class="row">
+                    <div class="col-lg-4 iphone-wrapcol-lg-5 iphone-wrap">
+                        <img src="../../assets/images/series-main.jpg" class="phone-1">
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-left">
+                        <h4>Breaking Bad: S3 E6</h4>
+                        <p>Series</p>
+                        <span>{{currentRate}}</span>
+                        <ngb-rating [max]="5" [(rate)]="currentRate" [readonly]="false"></ngb-rating>
+                        <p>43 Minutes - USA</p>
+                        <button mdbBtn type="button" color="grey" outline="true" mdbWavesEffect>Action</button>
+                        <button mdbBtn type="button" color="grey" outline="true" mdbWavesEffect>Crime</button>
+                        <button mdbBtn type="button" color="grey" outline="true" mdbWavesEffect>Drama</button>
+                        <button mdbBtn type="button" color="grey" outline="true" mdbWavesEffect>Fantasy</button>
+                        <button mdbBtn type="button" color="grey" outline="true" mdbWavesEffect>Thriller</button>
+
+                        <p style="margin-top:15px;">A high school chemistry teacher diagnosed with inoperable lung
+                            cancer turns to manufacturing
+                            and selling methamphetamine in order to secure his family's future.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1 iphone-wrapcol-lg-5 iphone-wrap"></div>
+                    <div class="col-lg-10 iphone-wrapcol-lg-5 iphone-wrap">
+                        <hr
+                            style="height:2px;border-width:0;color:white;background-color:white; z-index:30; opacity: 0.3;">
+                    </div>
+                    <div class="col-lg-1 iphone-wrapcol-lg-5 iphone-wrap"></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-6 iphone-wrapcol-lg-5 iphone-wrap">
+                        <button mdbBtn type="button" color="grey" outline="true" mdbWavesEffect style="float:right; margin-right: 4% !important;
+                        padding: 8px !important;">Download <i class="fa fa-download" aria-hidden="true"></i></button>
+                        <button mdbBtn type="button" class="btn2" color="grey" outline="true" mdbWavesEffect
+                            style="float:right;padding: 8px !important;">Add to Wishlist <i class="fa fa-download"
+                                aria-hidden="true"></i></button>
+
+                        <button type="button" class="btn play" style="margin-left: 30% !important;">Play
+                            <i class="fa fa-play" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="col-lg-6 iphone-wrapcol-lg-4 iphone-wrap">
+                        <button mdbBtn type="button" color="grey" outline="true" mdbWavesEffect
+                            style="margin-left:50% !important;color: white !important;">Your Rate <ngb-rating [max]="5"
+                                [(rate)]="currentRate1" [readonly]="false"></ngb-rating></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <div class="product-screens">
+        <div class="product-screen-1 fadeInUp animated">
+            <img src="../../assets/images/series-main.jpg">
+        </div>
+    </div>
+<div class="intro-text">
+
+    <a href="#action" class="btn-get-started scrollto">Action</a>
+</div> -->
+
+</section>
+<app-about></app-about>
+<app-episodes></app-episodes>
+<app-more></app-more>
+<app-comments></app-comments>
+<app-footer></app-footer>
+<!-- </section> -->

@@ -1,0 +1,79 @@
+.home {
+    position: relative;
+    display: block;
+    /* background:linear-gradient(to top, rgb(53 50 44), rgb(35 32 32)); */
+    background:linear-gradient(to top, #292726, #262526, #1D1D23);
+    padding: 40px 0;
+  }
+  .home .container {
+    position: relative;
+    z-index: 2;
+  }
+  .home__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .home__cover {
+    opacity: 0.07;
+  }
+  .card-title {
+    /* margin-bottom: .75rem; */
+    color: white !important;
+    text-align: center !important;
+    font-size: 12px;
+  }
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0rem !important;
+    background:linear-gradient(to top, #262526, #1D1D23);
+    /* background:linear-gradient(to top, #292726, #262526, #1D1D23); */
+  
+  }
+  .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: none !important;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+  }
+  a:not([href]):not([tabindex]) {
+    color: white !important;
+    text-decoration: none;
+  }
+  .fa-chevron-left{
+    /* float: right !important; */
+    margin-left: 97%;
+  }
+  .seasonBtn{
+      padding: 25px !important;
+      font-size: 15px !important;
+      position: absolute;
+      top: 50%;
+      left: 43%;
+      transform: translateY(-50%);
+     
+  }
+  mdb-card-img {
+    border-radius: 15px !important;
+  }
+  .my-1{
+    border-radius: 15px !important;
+  }
+  h5{
+    
+    max-width: 25% !important;
+   
+  }

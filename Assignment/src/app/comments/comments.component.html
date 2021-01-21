@@ -1,0 +1,38 @@
+<section id="comment">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+                <h5>Comments</h5>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <textarea class="form-control" id="exampleFormControlTextarea6" rows="6" cols="20">
+
+                </textarea>
+            </div>
+            <div class="col-md-6">
+                <div class="card" *ngFor="let item of cards; let i = index">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <img [src]="item.img" alt="Avatar" class="avatar">
+                                <span style="font-size: 10px;">{{item.name}}</span>
+                                <p style="font-size: 10px; margin-left: 50px;">{{item.comment}}</p>
+                            </div>
+                            <div class="col-md-3 ratingSec">
+                                <p style="color:#fcc434; font-size: 10px; text-align: center">10/10</p>
+                                <p style="font-size: 10px; text-align: center">{{item.date}}</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

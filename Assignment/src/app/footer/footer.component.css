@@ -1,0 +1,129 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i|Roboto'); */
+body{
+	padding: 0;
+	margin: 0;
+
+}
+footer{
+	padding-top: 60px;
+	background-size: cover;
+	/* background-color: #6c6454; */
+	background: linear-gradient(to top, #6D6654,#676153, #666052);
+	height: 360px;
+
+}
+h2{
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 24px;
+	text-align: left;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+a,i{
+	color: #fff;
+	font-family: 'Roboto';
+	text-align: center;
+}
+p{
+	color: #fff;
+	text-align: center;
+	font-size: 12px;	
+}
+hr{
+	border-top: 1px solid rgba(210, 90, 90, 0.1);
+	width: 100%;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	padding-bottom: 30px;
+}
+li{
+	padding: 5px;
+	margin: 0;
+	text-align: left;
+}
+a{
+	padding: 5px;
+	font-size: 13px;
+}
+a:hover{
+	text-decoration: none;
+	/* color:  */
+}
+
+.fa{
+	
+	padding-top: 10px;
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+}
+.download-icon .fa{
+	font-size: 50px;
+	padding: 10px;
+}
+.social .fa{
+	padding-top: 30px;
+	font-size: 30px;
+	transition: .9s;
+}
+.social .fa:hover{
+	transition: 1s;
+	transform: scale(1.1);
+	color: #ddd;
+}
+@media(max-width: 768px){
+	footer{
+		height: auto !important;
+	}
+	h2{
+		font-size: 30px;
+	}
+}
+.filimo-icon{
+		width: 20%;
+		margin: 2%;
+}
+
+
+	.back-to-top {
+    position: fixed;
+    display: none;
+    background: #fcc434;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+
+  }
+  
+  .back-to-top i {
+    padding-top: 12px;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .back-to-top {
+      bottom: 15px;
+    }
+	}
+	
+.footer-p{
+	font-size: 12px;
+	text-align: left;
+	
+}	
